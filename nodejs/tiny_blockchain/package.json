@@ -1,0 +1,17 @@
+{
+  "name": "tiny_blockchain",
+  "version": "0.0.1",
+  "description": "A tiny blockchain in Javascript",
+  "main": "tiny_blockchain.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "author": "Brandon Gilchrist"
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
