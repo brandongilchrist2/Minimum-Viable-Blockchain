@@ -1,8 +1,3 @@
-// var chai = require('chai')
-// var mocha = require('mocha')
-
-// var  cha
-
 var Block = require("../block.js")
 
 describe('Block', () => {
@@ -16,8 +11,6 @@ describe('Block', () => {
 
   it('sets the `data` to match the input', () => {
     expect(block.data).toEqual(data)
-    // expect(block.timestamp).toEqual('bing')
-    // expect(block.hash).toEqual()
     console.log(`${block.toString()}\n`);
   });
   it('sets the `lastHash` to match the hash of the last block', () => {
